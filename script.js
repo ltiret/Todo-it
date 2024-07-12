@@ -52,7 +52,7 @@ function ajouterElementALaListe(element) {
     otherCheckbox.addEventListener("change", () => {
       if (! otherCheckbox.checked) {
         otherText.style.textDecoration ="none";
-        otherText.style.color = "white";
+        otherText.style.color = "rgb(10, 10, 65)";
       } else {
         otherText.style.textDecoration ="line-through";
         otherText.style.color = "dimgray";
