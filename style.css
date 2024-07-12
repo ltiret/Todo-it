@@ -1,11 +1,12 @@
 h1 {
-    color:darkblue;
+    color:rgb(10, 10, 65);
     text-align: center;
     text-decoration: underline;
+    font-size: x-large;
 }
 
 li {
-    color:darkblue;
+    color:rgb(10, 10, 65);
     font-size: larger;
 }
 
