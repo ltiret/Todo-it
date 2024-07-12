@@ -31,7 +31,7 @@ function ajouterElementALaListe(element) {
     let numOflis = document.querySelectorAll("li").length;
     
     const newtask = document.createElement("li");
-    newtask.innerHTML += "<br><li ><input type=checkbox id=checkbox"+ numOflis +"><text id=text"+ numOflis +">"+element+"</text></li>" ; 
+    newtask.innerHTML += "<br><input type=checkbox id=checkbox"+ numOflis +"><text id=text"+ numOflis +">"+element+"</text>" ; 
     
     const taskButton = document.createElement('button');
     taskButton.innerHTML = "<img src='trash.png'>";
