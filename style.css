@@ -1,0 +1,32 @@
+h1 {
+    color:darkblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    color:darkblue;
+    font-size: larger;
+}
+
+body {
+    font-family: comic Sans MS, Comic Sans, cursive;
+    background-image: url("background.jpg");
+    background-repeat:repeat-y;
+    background-size: 100vw 100vh;
+}
+
+#créer_liste {
+    width: 50%;
+}
+
+#champ-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style-type:none
+}
+
