@@ -2,6 +2,7 @@ h1 {
     color:rgb(10, 10, 65);
     text-align: center;
     text-decoration: underline;
+    text-decoration:double;
     font-size: x-large;
 }
 
